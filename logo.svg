@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24.96707mm"
+   height="38.670532mm"
+   viewBox="0 0 24.96707 38.670532"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="3.2462682"
+     inkscape:cx="35.271269"
+     inkscape:cy="80.554033"
+     inkscape:window-width="1920"
+     inkscape:window-height="1171"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="1.8297974,53.333902"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-0.03293267,82.180092"
+       orientation="1,0"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-10.176152,92.438572"
+       orientation="1,0"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="9.6492285,90.479092"
+       orientation="1,0"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="9.6492265,20.330622"
+       orientation="0,-1"
+       id="guide5"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-0.03293467,39.301943"
+       orientation="0,-1"
+       id="guide6"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-70.113347,-186.28784)">
+    <g
+       id="g6"
+       transform="translate(12.516465,5.664733)">
+      <rect
+         style="fill:#000000;stroke-width:0.306933;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.7742"
+         id="rect1"
+         width="24.96707"
+         height="22.307743"
+         x="57.596882"
+         y="196.9859"
+         ry="2.2026191" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.32;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:26.7742"
+         d="m 59.937195,214.28639 c -0.05125,-0.0178 -0.16758,-11.21397 0,-18.97132 0.16758,-7.75735 0.420267,-14.03196 10.143219,-14.03196 9.682161,0 9.585346,5.34369 9.682161,14.03196 0.09681,8.68827 0.229246,18.765 0,18.97132"
+         id="path1"
+         sodipodi:nodetypes="csssc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.4745px;line-height:2;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:3.36374;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:26.7742"
+         x="64.116119"
+         y="213.11642"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.4745px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:none;stroke-width:3.36374"
+           x="64.116119"
+           y="213.11642">π</tspan></text>
+    </g>
+  </g>
+</svg>

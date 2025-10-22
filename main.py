@@ -84,15 +84,15 @@ def valider(*events) :
         quit()
 
     value = input.get()
-
-    if len(value) < config.score :
-        show("Tu a déja fait mieux, tu dois le refaire.")
-        return
     
     if value == get_pi(len(value))  :
-        config.updtadeConfig('score', len(value))
-        show(f"Tu a gagné, décimal suivante : {get_next_term(len(value) + 1)}", "green")
-        win = True
+        if len(value) < config.score :
+            show("Tu a déja fait mieux, tu dois le refaire.")
+            return
+        else :
+            config.updtadeConfig('score', len(value))
+            show(f"Tu a gagné, décimales suivante : {get_next_term(len(value) + 1)}{get_next_term(len(value) + 2)}", "green")
+            win = True
     else : 
         show("Tu t'es trompé")
 
@@ -107,10 +107,20 @@ EntryFrame.place(relx=0.5, rely=0.5, anchor="center")
 
 Label(EntryFrame, text='3.', fg="white", bg="black", font=("Consolas", 40)).pack(side=LEFT)
 
-input = Entry(EntryFrame, fg="white", bg="black", font=("Consolas", 40), bd=0, insertbackground="white", highlightthickness=2, highlightbackground="black", highlightcolor="black")
+def resize(event) :
+    if event.type == EventType.KeyPress :
+        if event.char in [str(i) for i in range(10)] :
+            input.config(width=len(input.get())+1)
+    else :
+        if event.keysym == "BackSpace" :
+            input.config(width=len(input.get())+1)
+
+input = Entry(EntryFrame, fg="white", bg="black", font=("Consolas", 40), bd=0, insertbackground="white", highlightthickness=2, highlightbackground="black", highlightcolor="black", width=1)
 input.pack(side=RIGHT, ipady=0)
 input.focus_set()
 input.bind("<Return>", valider)
+input.bind("<Key>", resize)
+input.bind("<KeyRelease>", resize)
 
 Result = Label(root, text='', fg="red", bg="black", font=("Consolas", 20))
 Result.place(relx=0.5, rely=0.55, anchor="center")
