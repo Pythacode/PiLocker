@@ -3,7 +3,7 @@ Un écran de vérouillage qui demande des valeurs de π (pi) de plus en plus gra
 
 ## Sommaire
 
-- [installation](https://github.com/Pythacode/PiLocker?tab=readme-ov-file#instalation)
+- [installation](https://github.com/Pythacode/PiLocker?tab=readme-ov-file#installation)
 - [Fonctionnement](https://github.com/Pythacode/PiLocker?tab=readme-ov-file#fonctionnement)
 - [Explication du code : En cours de rédaction](https://github.com/Pythacode/PiLocker?tab=readme-ov-file#explication_du_code)
 
